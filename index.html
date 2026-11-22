@@ -13,7 +13,7 @@
     <!--script src="tmi.min.js"></script-->
     <script>
     var text;
-    var timeValue = 0
+    var timeValue = 0;
     var counterTimeout;
     var client;
     var counterInterval;
@@ -29,10 +29,9 @@
       return `${zeroFill(h,2)}:${zeroFill(m,2)}:${zeroFill(s,2)}`;
     }
     function startCountdown() {
-      timeValue = 0;
       text.innerHTML = formatTime(timeValue--);
       function nextTimeout() {
-        if(nextTimeout <= 0) {
+        if(timeValue <= 0) {
           clearInterval(counterInterval);
         }
         text.innerHTML = formatTime(timeValue--);
