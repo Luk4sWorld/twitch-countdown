@@ -14,4 +14,4 @@ current settings supported:
 
 ## example
   
-`https://Luk4sWorld.github.io/twitch-timer/index.html#font=Comic%20Sans%20MS&size=40px&color=#F0F0F0&time=600`  
+`https://Luk4sWorld.github.io/twitch-countdown/index.html#font=Comic%20Sans%20MS&size=40px&color=#F0F0F0&time=600`  
