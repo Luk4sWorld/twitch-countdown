@@ -58,7 +58,7 @@
       if(d.font) text.style.fontFamily = d.font;
       if(d.size) text.style.fontSize = d.size;
       if(d.color) text.style.color = d.color;
-      if(d.time) timeValue = d.time;
+      if(d.time && Number(d.time) != NaN) timeValue = Number(d.time);
       //const command = d.command;
       /*
       client = new tmi.Client({channels:[d.channel]});
